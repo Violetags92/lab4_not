@@ -9,7 +9,8 @@ attach(iris)
 View(iris)
 ?iris
 lm(iris)
-
+?model.matrix()
+?all.vars()
 linreg <- function(formula, data){
   
   X <- model.matrix(formula, data=data)
